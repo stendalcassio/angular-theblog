@@ -3,7 +3,7 @@
 }
 
 .container__menu-title > h1 {
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: 300px;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
@@ -13,4 +13,10 @@
 .container__menu-title > hr {
   margin-top: 1.25rem;
   margin-bottom: 0.313rem;
+}
+
+hr {  
+  border: 1px solid #202020; /* Define a borda com 1 pixel de largura, estilo sólido e cor vermelha */
+  background-color: #222222; /* Define a cor de fundo como vermelha (opcional, dependendo do seu layout) */
+  height: .5px; /* Define a altura da linha horizontal */
 }

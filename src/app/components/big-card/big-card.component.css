@@ -2,12 +2,15 @@
   margin: 2rem 4rem;
   width: 600px;
   height: 500px;
-  border: 2px solid #fff;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+
+  -webkit-box-shadow: 16px 11px 22px -19px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 16px 11px 22px -19px rgba(0, 0, 0, 1);
+  box-shadow: 16px 11px 22px -19px rgba(0, 0, 0, 1);
 }
 
 .big-card__title > h1 {
