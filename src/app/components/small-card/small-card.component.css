@@ -1,5 +1,5 @@
 .container__small-card{
-  border: 1px solid white;
+  border-bottom: 2px solid white;
   width: 100vh;
   margin: 2rem 4rem;
   display: flex;
@@ -11,7 +11,7 @@
   width: 200px;
   height: 150px;
   min-width: 200px;
-  margin-right: 20px  ;
+  margin-right: 20px;
 }
 
 .small-card__title {
