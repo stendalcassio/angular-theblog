@@ -3,14 +3,16 @@
     <img src="{{ photoCover }}" height="300px" alt="" />
   </div>
 
-  <a href="#">
-    <div class="big-card__title">
-      <h1>{{ cardTitle }}</h1>
-    </div>
-    <div class="big-card__description">
-      <p>
+  <div class="big-card__title">
+    <a [routerLink]="['content', Id]"
+      ><h1>{{ cardTitle }}</h1></a
+    >
+  </div>
+  <div class="big-card__description">
+    <p>
+      <a [routerLink]="['content', Id]">
         {{ cardDescription }}
-      </p>
-    </div>
-  </a>
+      </a>
+    </p>
+  </div>
 </div>
